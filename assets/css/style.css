@@ -618,7 +618,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: antiquewhite;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
@@ -627,13 +626,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 .portfolio-content .item {
     margin-bottom: 30px;
-    padding: 0;
+    padding: 60px 35px;
 }
 
 .portfolio-content .item img {
     display: block;
-    width: 100%;
-    height: 80%;
 }
 
 @media (min-width: 768px) {
@@ -840,4 +837,82 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
+.box {
+    border-radius: 12px;
+}
+.box {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+    color: #141c3a;
+    display: block;
+    padding: 1.25rem;
+}
+.box img {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+
+}
+.logo.mb-5 {
+    width: 300px;
+    height: 200px;
+    object-fit: cover; /* Optional: This property ensures the aspect ratio is maintained while resizing the image */
+  }
+  
+.mb-5 {
+    margin-bottom: 1.5rem !important;
+}
+.item p{
+    margin-bottom: 2rem;
+}
+.item a {
+    color: #1a8cff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.item a, .button {
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    font-weight: 400;
+}
+.tag:not(body).is-medium {
+    font-size: 1rem;
+}
+.tag:not(body).is-light {
+    background-color: rgba(20, 28, 58, 0.08);
+    color: #141c3a;
+}
+.tag:not(body).is-medium {
+    font-size: 1rem;
+}
+.tag:not(body).is-link {
+    background-color: #1a8cff;
+    color: #fff;
+}
+.tag:not(body).is-light {
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.7);
+}
+.tag:not(body) {
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    color: #141c3a;
+    display: inline-flex;
+    font-size: 0.75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+}
+span {
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+  
 /*========================Thank you=================
+
