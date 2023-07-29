@@ -1,0 +1,13 @@
+# Ignore files with .log extension
+*.log
+
+# Ignore directories named "tmp"
+/tmp/
+
+# Ignore a specific file
+config.ini
+
+# Ignore all .txt files in the "docs" directory
+docs/*.txt
+.DS_Store
+assets/.DS_Store
